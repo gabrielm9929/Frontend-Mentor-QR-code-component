@@ -1,0 +1,75 @@
+@media screen{
+  .background{
+    background-color: hsl(212, 45%, 89%);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+/* box container */
+.container {
+  width: auto;
+  height: 1040px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 400px;
+  height: 600px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.QR{
+  position: relative;
+  width: 360px;
+  border-radius: 15px;
+  align-self: center;
+  margin: 15px 15px 15px 15px;
+}
+
+.description{
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+
+.details{
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+
+/* footer */
+footer {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: 200;
+  padding: 1rem;
+}
+
+footer>p {
+  margin: 0.5rem;
+}
